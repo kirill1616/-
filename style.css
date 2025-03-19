@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color: #888;
+    border-top: 1px solid #555;
+}
+
+/* Специфические стили для главной страницы */
+.home-hero {
+    background-image: url('C:\Users\NewUser\Documents\Сайт\image\Главный.jpg'); /* Замените на изображение */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.home-hero h1 {
+    font-size: 3em;
+}
+
+/* Стили для страницы игры */
+.game-description {
+    line-height: 1.6;
+}
+
+/* Стили для страницы новостей */
+.news-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.news-date {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.play-button {
+    display: block; /* Делает кнопку блочным элементом для полной ширины */
+    margin: 20px auto; /* Центрирует кнопку по горизонтали и добавляет отступ сверху и снизу */
+    padding: 15px 30px; /* Увеличивает размер кнопки */
+    background-color: #e7e7e7; /* Зеленый цвет */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em; /* Увеличивает размер шрифта */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
